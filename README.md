@@ -10,7 +10,7 @@ La solución utiliza un enfoque de clasificación, priorizando la métrica **Rec
 
 | Métrica | Valor (Umbral de Negocio: 0.36) | Interpretación |
 | :--- | :--- | :--- |
-| **AUC-ROC** | ~0.85 | Excelente capacidad de discriminación general. |
+| **AUC-ROC** | ~0.67 | Moderada capacidad de discriminación general. |
 | **Recall (Detección)** | ~0.82 | El modelo detecta correctamente **8 de cada 10** casos de inasistencia real. |
 | **Precisión (Costo)** | ~0.45 | Aproximadamente **45%** de las alertas son inasistencias reales (el resto son falsos positivos). |
 
