@@ -47,21 +47,3 @@ La solución utiliza un enfoque de clasificación, priorizando la métrica **Rec
     pip install -r requirements.txt
     ```
 4.  Ejecutar el notebook `Analisis_dataset.ipynb` en orden.
-
----
-
-## ⏫ Paso 3: Subir todos los archivos a GitHub
-
-Una vez que tengas `README.md` y `requirements.txt` listos, vuelve a tu terminal y ejecuta los comandos actualizados para incluir los nuevos archivos:
-
-```bash
-# Asegúrate de estar en la rama correcta (main) y en la carpeta del proyecto
-git add . 
-
-# El comando 'add .' incluye automáticamente los archivos README.md y requirements.txt
-
-# Crea un nuevo commit con un mensaje más completo
-git commit -m "Final: Añadir README, requirements.txt y visualizaciones finales."
-
-# Sube todos los cambios al repositorio remoto
-git push
